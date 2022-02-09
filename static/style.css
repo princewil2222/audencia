@@ -1,0 +1,135 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    line-height: 1.428;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+}
+
+#navigationprincipal.menu-portal{
+    background: #0b2f5f;
+    background: -webkit-linear-gradient(top,#0b2f5f 0%,#103d6b 100%);
+    background: linear-gradient(to botttom,#0b2f5f 0%,#103d6b 100%);
+}
+
+.navbar-fixed-top{
+    border: 0;
+    z-index: 1020;
+    top: 0;
+    border-width: 0 0 1px;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+
+.navbar-default{
+    background-color: #f8f8f8;
+    border-color: #f8f8f8;
+}
+
+.navbar{
+    background-color: #333333;
+    border-color: #222222;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+
+#top-navbar{
+    font-size: 16px;
+    background: #313030;
+    margin: 0 -15px;
+    text-transform: uppercase;
+    position: relative;
+}
+.navbar-centered{
+     display: flex; 
+    justify-content: center; 
+}
+
+.main-menu{
+    margin-bottom: 8px;
+}
+.navbar-nav{
+    display: flex;
+     margin-top: 8px;
+    font-size: calc(16px + 3 * (100vw - 1920px)/ 1020);
+    float: left; 
+}
+.nav{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    
+}
+ul{
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#top-navbar .langues {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1050;
+}
+
+#top-navbar .langues a{
+    display: inline-block;
+}
+
+#top-navbar a {
+    color: #FFF;
+    opacity: 0.7;
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    padding: 10px 15px;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#top-navbar .dropdown-menu {
+    background: #313030;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  }

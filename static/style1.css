@@ -1,0 +1,198 @@
+.navbar .navbar-header{
+    padding-left: 10px;
+}
+.navbar-header{
+    position: fixed; 
+    z-index: -000; 
+    background: #0b2f5f;
+    background: -webkit-linear-gradient(top,#0b2f5f 0%,#103d6b 100%);
+    background: linear-gradient(to botttom,#0b2f5f 0%,#103d6b 100%);
+    width: 100%;
+    padding:0 15px ;
+}
+
+.logo{
+    background: url(img/logo-audencia-2.png) no-repeat left center;
+    width: 170px;
+    height: 69px;
+    background-size: 100% auto;
+
+}
+.navbar-brand{
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+a:-webkit-any-link{
+    color: webkit link;
+    cursor: pointer;
+}
+
+.links-nav-xs{
+    display: none;
+    float: right;
+    margin-top: 25px;
+}
+
+.links-nav-xs .navbar-toggle{
+    margin: 0 0 0 15px;
+    border: none;
+    background: transparent !important;
+    padding: 0;
+    margin: 5px 0 0 20px;
+}
+
+.navbar-default .navbar-toggle{
+    border-color: #dddd;
+}
+
+.navbar-toggle{
+    position: relative;
+    float: right;
+    padding: 9px -10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border-radius: 4px;
+}
+
+button{
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    -webkit-appearance: button;
+    cursor: pointer;
+    text-transform: none;
+    overflow: visible;
+}
+
+#navigationprincipal .navbar-search{
+    position: relative;
+    z-index: 1000;
+    float: right;
+    display: inline-flex;
+    margin: 24px;
+    cursor: pointer;
+}
+
+#navigationprincipal .navbar-search{
+    color: #535353;
+}
+#navigationprincipale .navbar-search .toggle-searchbar i {
+    background: #FFF;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 100%;
+  }
+#navigationprincipal .navbar-search .search-form{
+    position: absolute;
+    right: 0;
+    z-index: 1050;
+}
+ .hidden{ 
+    display: none !important; 
+ }
+
+#navigationprincipal .search-form .form-group{
+    height: 50px;
+    border-radius: 100%;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+input{
+    font-size: inherit;
+    font-family: inherit;
+    line-height: normal;
+    margin: 0;
+}
+#navigationprincipal .navbar-search .form-control{
+    height: 100%;
+    border-radius: 30%;
+    width: 0;
+    padding: 0 25px 0 25px;
+}
+ .form-control{
+     display: block;
+     width: 100%;
+     height: 34px;
+     padding: 6px  12px;
+     font-size: 14px;
+     line-height: 1.428;
+     color: #555;
+     background-color: #FFF;
+     background-image: none;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-shadow: inset 0 1px 1px rgb(0 0 0 /8%);
+     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+ }
+ #navigationprincipale .search-form .btn-search {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50px;
+    margin-right: 5px;
+    border-radius: 100%;
+    border: none;
+    background: none;
+ }
+ .navbar-centered {
+    display: flex;
+    justify-content: center;
+}
+#navbar {
+    font-family: 'AvenirNextCondensed-Medium',Arial,Helvetica,sans-serif;
+    font-size: 19px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.navbar-nav{
+    margin: 0 -15px;
+}
+.nav{
+    padding: 0;
+    list-style-type: none;
+}
+#navbar .sub{
+    position: initial;
+}
+ .nav > li{
+    position: relative;
+    display: block;
+ }
+#navbar > li > a {
+    overflow: hidden;
+    white-space: nowrap;
+    color: #fff;
+    opacity: 0.7;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+#navbar ul li{
+    display: flex;
+}
